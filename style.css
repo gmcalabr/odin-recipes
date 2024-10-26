@@ -1,0 +1,50 @@
+button {
+    border-width: 0px;
+    background-color: yellow;
+    width: auto;
+    width: 100px;
+    display: block;
+    height: 5em;
+    margin: -4px 10px 0 0;
+    border-radius: 0px 0px 15px 15px;
+}
+
+img {
+    border-radius: 15px 15px 0px 0px;
+    width: auto;
+    /* min-width: 200px; */
+    /* max-width: 400px; */
+    height: 400px;
+    object-fit: cover;
+    background-position: center center;
+    margin: 0 10;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.flex-container {
+    display: grid;
+    height: 600px;
+    gap: 16px;
+    padding: 10px;
+    background-color: DodgerBlue;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    max-width: 80%;
+}
+
+.flex-container > div {
+    background-color: #00ff33;
+    padding: 0px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+

@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Recipe Homepage</title>
-</head>
-<body>
-    <h3>Hi, this is my recipe page</h3>
-    <p></p>
-    <h5>Click some links below for food</h5>
-    <p></p>
-    <ul>
-        <li><a href="recipes/lasagne.html">Lasagne</a></li>
-        <li><a href="recipes/bibimbap.html">Bibimbap</a></li>
-        <li><a href="recipes/butternut.html">Butternut Squash Soup</a></li>
-        <li><a href="recipes/chili.html">Pumpkin Turkey Chili</a></li>
-        <li><a href="recipes/ziti.html">Baked Ziki</a></li>
-    </ul>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Recipe Homepage</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h3>Hi, this is my recipe page</h3>
+        <p></p>
+        <h5>Click some links below for food</h5>
+        <p></p>
+        
+        <div class="flex-container">
+            <a href="recipes/bibimbap.html"><div>
+                <img src="https://www.allrecipes.com/thmb/5Zx-fq1l7hiwQDPBLArguNmsahk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/228240-BibimbapKoreanRiceWithMixedVegtables-ddmfs-4X3-0667-6033d57010ea4dd3bd7b95fb36d3dd51.jpg" alt="Picture of Bibimbap">
+                <button style=" color: white; background-color: rgb(185, 174, 102);">Savory Bibimbap</button>
+            </div></a>
+            <a href="recipes/butternut.html"><div>
+                <img src="https://www.allrecipes.com/thmb/P-XPKhRFY3vJJy7kL5o7iNUBeuc=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/245272-Chef-Johns-Roasted-Butternut-Squash-Soup-DDMFS-001-4x3-41edb2586f774a64a7240e13d7765ce2.jpg" alt="Picture of Butternut Squash Soup">
+                <button style=" color: white; background-color: rgb(234, 137, 1);">Creamy Butternut Squash Soup</button>
+            </div></a>
+            <a href="recipes/chili.html"><div>
+                <img src="https://www.allrecipes.com/thmb/TI01bglHbTDOqgLLwBrdNt7_guU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/270553-pumpkin-turkey-chili-Darcey55-1x1-1-206dbb134bcf4e7e8f903144d7a9497f.jpg" alt="Picture of Chili">
+                <button style=" color: white; background-color: rgb(68, 101, 0);">Hearty Turkey Chili</button>
+            </div></a>
+            <a href="recipes/lasagne.html"><div>
+                <img src="https://www.allrecipes.com/thmb/AS8wDCTe6mzffnzQPfrSxH9naRQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/5787099-46fb24c9047d4edba4ca4a6aa03ed144.jpg" alt="Picture of Lasagne">
+                <button style=" color: white; background-color: rgb(157, 47, 22);">Tasty Lasagne</button>
+            </div></a>
+            <a href="recipes/ziti.html"><div>
+                <img src="https://www.allrecipes.com/thmb/LLZhwQHojHkeJvbIaAMdhQpiLxA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AR-JF-11758-Baked-Ziti-ddmfs-3x4-0630757a10b1492e85daab40662225b3.jpg" alt="Picture of Ziti">
+                <button style=" color: white; background-color: rgb(156, 191, 0);">Easy Ziti</button>
+            </div></a>
+        </div> 
+
+    </body>
+    <script> setTimeout(() => location.reload(), 3000) </script>
 </html>
